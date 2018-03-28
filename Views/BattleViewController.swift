@@ -76,13 +76,16 @@ class BattleViewController: UIViewController, UITableViewDataSource, UITableView
             if let winningTeam = battle.winningTeam() {
                 winnerString += "Winning team (" + winningTeam.rawValue + "): "
                 if winningTeam == .autobot {
-                    for transfromer in battle.winningAutbots {
+                    
+                    let winningAutobots = battle.winningAutbots + battle.survivors.filter({$0.alliance == .autobot})
+                    
+                    for transfromer in winningAutobots {
                         winnerString += transfromer.name + " "
                     }
                     
                     losingString += "(Decepticons): "
                     
-                    let losingDecepticons = battle.survivors.filter({$0.alliance == .decepticon})
+                    let losingDecepticons = battle.winningDecepticons + battle.survivors.filter({$0.alliance == .decepticon})
                     
                     if losingDecepticons.count > 0 {
                         for transformer in battle.survivors.filter({$0.alliance == .decepticon}) {
@@ -94,13 +97,16 @@ class BattleViewController: UIViewController, UITableViewDataSource, UITableView
                     }
                 }
                 else {
-                    for transfromer in battle.winningDecepticons {
+                    
+                    let winningDecepticons = battle.winningDecepticons + battle.survivors.filter({$0.alliance == .decepticon})
+                    
+                    for transfromer in winningDecepticons {
                         winnerString += transfromer.name + " "
                     }
                     
                     losingString += "(Autobots): "
                     
-                    let losingAutobots = battle.survivors.filter({$0.alliance == .autobot})
+                    let losingAutobots = battle.winningAutbots + battle.survivors.filter({$0.alliance == .autobot})
                     
                     if losingAutobots.count > 0 {
                         for transfromer in losingAutobots {
