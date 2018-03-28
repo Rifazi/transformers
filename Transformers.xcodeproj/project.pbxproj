@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		9576DC13206B0E15006F55F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC12206B0E15006F55F0 /* AppDelegate.swift */; };
-		9576DC15206B0E15006F55F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC14206B0E15006F55F0 /* ViewController.swift */; };
+		9576DC15206B0E15006F55F0 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC14206B0E15006F55F0 /* BattleViewController.swift */; };
 		9576DC18206B0E15006F55F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9576DC16206B0E15006F55F0 /* Main.storyboard */; };
 		9576DC1A206B0E15006F55F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9576DC19206B0E15006F55F0 /* Assets.xcassets */; };
 		9576DC1D206B0E15006F55F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9576DC1B206B0E15006F55F0 /* LaunchScreen.storyboard */; };
+		9576DC25206B0E3D006F55F0 /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC24206B0E3D006F55F0 /* Transformer.swift */; };
+		9576DC29206B103C006F55F0 /* Utilties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC28206B103C006F55F0 /* Utilties.swift */; };
+		9576DC2B206B115A006F55F0 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC2A206B115A006F55F0 /* Battle.swift */; };
+		9576DC2F206B330B006F55F0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC2E206B330B006F55F0 /* Test.swift */; };
+		9576DC34206B4C5F006F55F0 /* TransformerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC33206B4C5F006F55F0 /* TransformerTableViewCell.swift */; };
+		9576DC36206B5294006F55F0 /* BotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC35206B5294006F55F0 /* BotViewController.swift */; };
+		9576DC38206B5570006F55F0 /* StatPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC37206B5570006F55F0 /* StatPickerTableViewCell.swift */; };
+		9576DC3A206B5D87006F55F0 /* TestSkirmish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576DC39206B5D87006F55F0 /* TestSkirmish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9576DC0F206B0E15006F55F0 /* Transformers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transformers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9576DC12206B0E15006F55F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9576DC14206B0E15006F55F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9576DC14206B0E15006F55F0 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
 		9576DC17206B0E15006F55F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9576DC19206B0E15006F55F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9576DC1C206B0E15006F55F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9576DC1E206B0E15006F55F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9576DC24206B0E3D006F55F0 /* Transformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformer.swift; sourceTree = "<group>"; };
+		9576DC28206B103C006F55F0 /* Utilties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilties.swift; sourceTree = "<group>"; };
+		9576DC2A206B115A006F55F0 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
+		9576DC2E206B330B006F55F0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		9576DC33206B4C5F006F55F0 /* TransformerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerTableViewCell.swift; sourceTree = "<group>"; };
+		9576DC35206B5294006F55F0 /* BotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotViewController.swift; sourceTree = "<group>"; };
+		9576DC37206B5570006F55F0 /* StatPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatPickerTableViewCell.swift; sourceTree = "<group>"; };
+		9576DC39206B5D87006F55F0 /* TestSkirmish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSkirmish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,9 @@
 		9576DC06206B0E15006F55F0 = {
 			isa = PBXGroup;
 			children = (
+				9576DC26206B0E46006F55F0 /* Models */,
+				9576DC30206B4BF3006F55F0 /* Views */,
+				9576DC27206B1025006F55F0 /* Utilities */,
 				9576DC11206B0E15006F55F0 /* Transformers */,
 				9576DC10206B0E15006F55F0 /* Products */,
 			);
@@ -55,13 +74,42 @@
 			isa = PBXGroup;
 			children = (
 				9576DC12206B0E15006F55F0 /* AppDelegate.swift */,
-				9576DC14206B0E15006F55F0 /* ViewController.swift */,
 				9576DC16206B0E15006F55F0 /* Main.storyboard */,
 				9576DC19206B0E15006F55F0 /* Assets.xcassets */,
 				9576DC1B206B0E15006F55F0 /* LaunchScreen.storyboard */,
 				9576DC1E206B0E15006F55F0 /* Info.plist */,
 			);
 			path = Transformers;
+			sourceTree = "<group>";
+		};
+		9576DC26206B0E46006F55F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9576DC24206B0E3D006F55F0 /* Transformer.swift */,
+				9576DC2A206B115A006F55F0 /* Battle.swift */,
+				9576DC2E206B330B006F55F0 /* Test.swift */,
+				9576DC39206B5D87006F55F0 /* TestSkirmish.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9576DC27206B1025006F55F0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9576DC28206B103C006F55F0 /* Utilties.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9576DC30206B4BF3006F55F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9576DC14206B0E15006F55F0 /* BattleViewController.swift */,
+				9576DC33206B4C5F006F55F0 /* TransformerTableViewCell.swift */,
+				9576DC35206B5294006F55F0 /* BotViewController.swift */,
+				9576DC37206B5570006F55F0 /* StatPickerTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9576DC15206B0E15006F55F0 /* ViewController.swift in Sources */,
+				9576DC38206B5570006F55F0 /* StatPickerTableViewCell.swift in Sources */,
+				9576DC29206B103C006F55F0 /* Utilties.swift in Sources */,
+				9576DC2F206B330B006F55F0 /* Test.swift in Sources */,
+				9576DC34206B4C5F006F55F0 /* TransformerTableViewCell.swift in Sources */,
+				9576DC36206B5294006F55F0 /* BotViewController.swift in Sources */,
+				9576DC3A206B5D87006F55F0 /* TestSkirmish.swift in Sources */,
+				9576DC15206B0E15006F55F0 /* BattleViewController.swift in Sources */,
+				9576DC25206B0E3D006F55F0 /* Transformer.swift in Sources */,
+				9576DC2B206B115A006F55F0 /* Battle.swift in Sources */,
 				9576DC13206B0E15006F55F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
