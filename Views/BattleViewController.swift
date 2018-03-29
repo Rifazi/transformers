@@ -71,9 +71,12 @@ class BattleViewController: UIViewController, UITableViewDataSource, UITableView
         if battle.battles > 0 {
             
             var winnerString = ""
-            var losingString = "Survivors from the losing team "
+            var losingString = ""
             
             if let winningTeam = battle.winningTeam() {
+                
+                losingString = "Survivors from the losing team "
+                
                 winnerString += "Winning team (" + winningTeam.rawValue + "): "
                 if winningTeam == .autobot {
                     
@@ -118,6 +121,10 @@ class BattleViewController: UIViewController, UITableViewDataSource, UITableView
                         losingString += "None"
                     }
                 }
+            }
+            
+            else {
+                losingString = "No winners left"
             }
             
             result += winnerString + "\n" + losingString
